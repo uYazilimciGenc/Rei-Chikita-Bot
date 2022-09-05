@@ -74,7 +74,8 @@ def mentionCheck():
                 " \n\n " + \
                 "*** \n" + \
                 "^(Ben Bir Botum Ve Bu Eylem Otomatik Olarak Gerçekleştirildi..)" + " \n\n " + \
-                "[Bilgi](https://www.reddit.com/user/Rei-Chikita-Bot/comments/x4sxmh/merhaba_ben_reichikitabot/)"
+                "[Bilgi](https://www.reddit.com/user/Rei-Chikita-Bot/comments/x4sxmh/merhaba_ben_reichikitabot/)" + " | " + \
+                "[Kaynak Kodum](https://github.com/uYazilimciGenc/Rei-Chikita-Bot)"
 
             mentionMessage = _mentionMessage.format(randomImage1)
 
@@ -96,7 +97,8 @@ def main():
             "Buraya senin için rastgele seçilmiş bir [Rei peluş fotoğrafı]({}) bırakıyorum, küçük bir ihtimal ile de normal Rei fotoğrafı var." + \
             " \n\n " + \
             "^(Ben Bir Botum Ve Bu Eylem Otomatik Olarak Gerçekleştirildi..)" + " \n\n " + \
-            "[Bilgi](https://www.reddit.com/user/Rei-Chikita-Bot/comments/x4sxmh/merhaba_ben_reichikitabot/)"
+            "[Bilgi](https://www.reddit.com/user/Rei-Chikita-Bot/comments/x4sxmh/merhaba_ben_reichikitabot/)" + " | " + \
+            "[Kaynak Kodum](https://github.com/uYazilimciGenc/Rei-Chikita-Bot)"
 
         botMesaj = _botMesaj.format(randomImage)
         print("******* Title : " + gonderi.title + " ********")
